@@ -74,7 +74,9 @@ padding-right: 30px;
 
 .main-text
 {
-   font-size: 30px;
+   font-size: 25px;
+  font-family: "FontName";
+
 
 }
 .discription
@@ -579,6 +581,93 @@ li {
   width: 90%;
   
 
+}
+
+
+.imeg-casesn
+{
+  background: url(img/net1.JPG) center no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 90%;
+  
+
+}
+
+.imeg-cases1n
+{
+  background: url(img/net2.JPG) center no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 90%;
+  
+
+}
+.imeg-cases2n
+{
+  background: url(img/net3.JPG) center no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 90%;
+
+}
+.imeg-cases3n
+{
+  background: url(img/net4.JPG) center no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 90%;
+
+}
+
+
+.imeg-cases1w
+{
+  background: url(img/w2.JPG) center no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 90%;
+  
+
+}
+.imeg-cases2w
+{
+  background: url(img/work_des7.JPG) center no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 90%;
+
+}
+.imeg-cases3w
+{
+  background: url(img/web_des10.jpg) center no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 90%;
+
+}
+.imeg-cases4w
+{
+  background: url(img/work_des6.JPG) center no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 90%;
+
+}
+
+.bg-block
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.475);
+}
+
+
+.content p
+{
+  background-color: transparent;
+  width: 500px;
 }
 .blog-card a{ 
 color:rgb(0, 0, 0);
@@ -1377,4 +1466,86 @@ button .arrow {
 
 #left-btn .arrow {
   transform: rotate(135deg);
+}
+
+
+
+.accordion{
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(225,225,225,1);
+    overflow: hidden;
+    transition: height 0.3s ease;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.accordion .accordion_tab{
+  padding: 20px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  width: 50%;
+}
+
+.accordion .accordion_tab .accordion_arrow{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  width: 15px;
+  height: 15px;
+  transition: all 0.3s ease;
+}
+
+.accordion .accordion_tab .accordion_arrow img{
+  width: 100%;
+  height: 100%;
+}
+
+.accordion .accordion_tab.active .accordion_arrow{
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.accordion.active{
+  height: 320px;
+}
+
+.accordion .accordion_content{
+  padding: 20px;
+  border-top: 1px solid #e9e9e9;
+  font-family: "FontName";
+
+}
+
+.accordion .accordion_content .accordion_item{
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.accordion .accordion_content .accordion_item p.item_title{
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #6adda2;
+}
+
+.accordion .accordion_content .accordion_item p:last-child{
+  color: #9a9b9f;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media screen and (min-width: 380px) and (max-width: 500px) {
+	.accordion  {
+    display: none;
+  
+  }
 }

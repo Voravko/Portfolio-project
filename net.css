@@ -1,0 +1,59 @@
+.imeg-cases
+{
+  background: url(img/net1.JPG) center no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 90%;
+  
+
+}
+
+.imeg-cases1
+{
+  background: url(img/net2.JPG) center no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 90%;
+  
+
+}
+.imeg-cases2
+{
+  background: url(img/net3.JPG) center no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 90%;
+
+}
+.imeg-cases3
+{
+  background: url(img/net4.JPG) center no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 90%;
+
+}
+.blog-card {
+  
+    max-width: 100%;
+    width:100%;
+    height: 100%;
+    position: relative;
+    font-family: "FontName";
+    color:#fff;
+    right: 0;  
+    left: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0px;
+    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.284);
+    text-align: center;
+    transition:all 0.4s;
+    left: 5%;
+    right: -5%;
+    overflow-x: hidden;
+    
+  
+  
+   
+  }
